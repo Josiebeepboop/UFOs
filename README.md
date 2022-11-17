@@ -11,9 +11,21 @@ The initial web page already had the date filter and a button to filter the resu
 
 When the user lands on the page, the table is populated. 
 
-![table-1]{/static/images/table-1.png}
+![table-1](static/images/table-1.png)
 
-On the new webpage, once the desired filter is entered, simply hit enter or navigate away from the search box and the results will filter immediately. 
+Once the user enters their desired filter, they can simply hit enter or navigate away from the search box and the table will filter the results based on their entry.
+
+![table-2](static/images/table-2.png)
+
+They can further drill down their results by adding an additional filter.
+
+![table-3](static/images/table-3.png)
+
+If they would like to perform a new search, they can remove all their filters and the table will return to the initial unfiltered view.
 
 ## Summary
-One drawback of this design is that it filters the results every time a criteria is entered. If the 
+One drawback of this new design is that it filters the results based on criteria 1 AND criteria 2. It is not possible to filter for criteria 1 OR criteria 2.
+
+To improve upon this design, the following can be added/modified:
+
+- 

@@ -55,9 +55,8 @@ function updateFilters() {
     console.log(filters);
     // 8. Set the filtered data to the tableData.
     var filteredData=tableData;
-  
     // 9. Loop through all of the filters and keep any data that
-    // matches the filter values
+    // matches the filter valuesa
     for (var field in filters) {
       console.log(field);
       console.log(filters[field]);
