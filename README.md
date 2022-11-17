@@ -24,8 +24,9 @@ They can further drill down their results by adding an additional filter.
 If they would like to perform a new search, they can remove all their filters and the table will return to the initial unfiltered view.
 
 ## Summary
-One drawback of this new design is that it filters the results based on criteria 1 AND criteria 2. It is not possible to filter for criteria 1 OR criteria 2.
+One drawback of this new design is that the end user must know what they are searching for prior to performing their search. In other words, the end user would need to know there was a sighting in Benton, Arizona to pull up the associated information. If they come to the sight without any prior information, they won't be able to search very efficiently.
 
 To improve upon this design, the following can be added/modified:
 
-- 
+- The addition of a dropdown menu for the filters. The dropdown menu would reduce the search time for end users.
+- The addition of a map to show where the sightings. Visualizing the location of the data points from the table would add another level of interactivity to the web page.
